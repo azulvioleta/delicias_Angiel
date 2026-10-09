@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicias Angiel - Encuesta</title>
+    <link rel="stylesheet" href="css/encuesta.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Queremos conocer tu opinión</h1>
+
+        <nav>
+            <a href="index.html">Promociones</a>
+            <a href="productos.html">Productos</a>
+            <a href="encuesta.html">Encuesta</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="encuesta">
+
+            <h2>¿Qué te parecen nuestros frappés?</h2>
+
+            <p>Ayúdanos a mejorar respondiendo esta pequeña encuesta.</p>
+
+            <form>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+
+                <label>¿Qué te parecen nuestros productos?</label>
+
+                <div class="opciones">
+                    <label>
+                        <input type="radio" name="opinion" value="excelente">
+                        Excelente
+                    </label>
+
+                    <label>
+                        <input type="radio" name="opinion" value="bueno">
+                        Bueno
+                    </label>
+
+                    <label>
+                        <input type="radio" name="opinion" value="regular">
+                        Regular
+                    </label>
+
+                    <label>
+                        <input type="radio" name="opinion" value="malo">
+                        Puede mejorar
+                    </label>
+                </div>
+
+                <label for="favorito">¿Cuál es tu frappé favorito?</label>
+
+                <select id="favorito" name="favorito">
+                    <option value="">Selecciona una opción</option>
+                    <option value="fresa">Fresa</option>
+                    <option value="chocolate">Chocolate</option>
+                    <option value="vainilla">Vainilla</option>
+                    <option value="moka">Moka</option>
+                </select>
+
+                <label for="comentario">¿Qué te gustaría que agregáramos?</label>
+
+                <textarea id="comentario" name="comentario"
+                    placeholder="Escribe tu opinión"></textarea>
+
+                <button type="submit">Enviar encuesta</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Delicias Angiel</p>
+    </footer>
+
+</body>
+</html>

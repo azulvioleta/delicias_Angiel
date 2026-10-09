@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, #be274d 7%, #8c4c94 31%, #e1b993 59%, #f4f19a 67%, #9b7450 75%, #9b7450 75%, #850000 83%, #271402 100%);
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #542f0d 7%, #8c4c94 31%, #9b7450 43%, #9b7450 60%, #9b7450 60%, #9b7450 60%, #9b7450 60%, #e1b993 100%);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: rgb(255, 251, 251);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+main > h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background-color: white;
+    width: 280px;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 10px #ddd;
+    padding-bottom: 20px;
+}
+
+.producto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.producto h3 {
+    color: #d94f70;
+    margin: 15px 10px 10px;
+}
+
+.producto p {
+    padding: 0 15px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.producto strong {
+    color: #a83252;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 100px;
+    background-color: #d94f70;
+    color: white;
+    margin-top: 100px;
+}
